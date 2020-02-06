@@ -3,5 +3,50 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 50px;
+    background-color: rgb(199, 230, 240);
+}
+
+header {
+    text-align: center;
+}
+
+.redtext {
+    color: red;
+    padding: 10px;
+}
+
+.bground {
+    background-color: fuchsia;
+}
+
+.pic {
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    text-align: center;
+}
+
+.bwturtle {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.finalmsg {
+    margin-top: 50px;
+    text-align: center;
+    color: green;
+    letter-spacing: 5px;
+}
+
+.footer {
+    text-align: center;
 }
